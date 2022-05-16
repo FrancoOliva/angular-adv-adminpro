@@ -4,8 +4,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { PagesModule } from './pages/pages.module';
 
 import { AppComponent } from './app.component';
-import { Error404Component } from './error404/error404.component';
 import { AuthModule } from './auth/auth.module';
+import { Error404Component } from './error404/error404.component';
 
 @NgModule({
   declarations: [AppComponent, Error404Component],
